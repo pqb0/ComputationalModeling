@@ -2,20 +2,7 @@ import math
 import random
 import pygame
 
-# ------------------------------------------------------------
-# 2D Metropolis sampler visualized with Pygame
-# ------------------------------------------------------------
-# Idea:
-# - State is a point (x, y) in continuous 2D space.
-# - Target density is proportional to exp(-beta * U(x, y)).
-# - We use a random-walk Metropolis proposal.
-# - Pygame visualizes the particle, accepted/rejected moves,
-#   and a fading trajectory.
-#
-# Potential used here:
-#     U(x, y) = (x^2 - 1)^2 + 0.35 y^2
-# This creates two wells near x = -1 and x = +1.
-# ------------------------------------------------------------
+
 
 WIDTH, HEIGHT = 1000, 720
 FPS = 60
